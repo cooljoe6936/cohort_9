@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type = "text/javascipt">
+        let txt = " "
+    function message(){
+        try{
+        addalert("welcome guest")
+        }
+        catch(err){
+        txt="there was an error on this page.\n\n"
+        txt+="error message: + err.message + \n\n"
+        txt+="click ok to continue.\n\n"
+        if(!confirm(txt)){
+            document.location.href=" cooljoe.com "
+        }
+        }
+
+        }
+    </script>
+    </head>
+    <body>
+        <script type="text/javasript">
+        document.write("hello  world");
+    </script>
+    <input type="button" onclick="message()" value="view message"/>
+
+    </body>
+</html>
